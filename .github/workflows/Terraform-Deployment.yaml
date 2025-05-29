@@ -28,7 +28,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Initialize Terraform
-        run: terraform init migrate
+        run: terraform init -migrate-state
 
       - name: Validate Terraform
         run: terraform validate
