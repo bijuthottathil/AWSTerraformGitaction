@@ -51,3 +51,13 @@ jobs:
 
 
 ![image](https://github.com/user-attachments/assets/71e76b8b-ea14-407d-ad5b-c86897cddade)
+
+You can see terraform state stored in S3 bucket  
+
+![image](https://github.com/user-attachments/assets/13648c77-fdbd-4844-9c54-a2d6d8b0be73)
+
+And using terraform module, created a brand new S3 bucket in AWS  . This is a very basic example. Based on the need we can add more AWS resources
+
+![image](https://github.com/user-attachments/assets/f8c67cf4-6b33-47cd-a5c1-de08b76d192a)
+
+
