@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/ce920039-ebfc-4941-91b9-3c05a4133d5a)
 
 
-Check gitaction file for execution steps
+# Check gitaction file for execution steps  
 
 name: 'Terraform CI/CD'
 
@@ -45,6 +45,9 @@ jobs:
 
       - name: Apply Terraform
       # if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        run: terraform apply -auto-approve
+        run: terraform apply -auto-approve   
+
+        ![image](https://github.com/user-attachments/assets/32d0c389-a8a6-4caa-a2d5-cafd2b10b756)
+
 
 ![image](https://github.com/user-attachments/assets/71e76b8b-ea14-407d-ad5b-c86897cddade)
