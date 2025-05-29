@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "The name of the S3 bucket"
   type        = string
-  default     = "my-unique-bucket-name"
+  default     = "s3-bucket-terraform-biju-dev"
 }
 
 variable "acl" {
@@ -21,6 +21,6 @@ variable "tags" {
   type        = map(string)
   default     = {
     Environment = "dev"
-    Project     = "s3-bucket-terraform"
+    Project     = "s3-bucket-terraform-biju"
   }
 }
